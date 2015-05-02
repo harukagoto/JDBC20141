@@ -22,7 +22,8 @@ import jdbc2014.Connexion;
  *
  * @author harukagoto
  */
-public class Interf_connexionController extends Interf {
+public class Interf_connexionController implements Initializable {
+//public class Interf_connexionController extends Interf {
     @FXML
     private Button connect;
     @FXML
@@ -34,11 +35,11 @@ public class Interf_connexionController extends Interf {
     @FXML
     private TextField loginBDD;
     
-    //Connexion maconnexion;
-
-    public Interf_connexionController(String cheminFXML) throws IOException{
-        super(cheminFXML);
-    }
+    Connexion maconnexion;
+//
+//    public Interf_connexionController(String cheminFXML) throws IOException{
+//        super(cheminFXML);
+//    }
     
 
     /**
