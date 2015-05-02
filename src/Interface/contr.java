@@ -21,7 +21,7 @@ public class contr extends Application{
     
     public void start(Stage stage) throws IOException{
         
-        Parent root = FXMLLoader.load(getClass().getResource("Interf_menu.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Interf_connexion.fxml"));
         
         Scene scene = new Scene(root);
 
