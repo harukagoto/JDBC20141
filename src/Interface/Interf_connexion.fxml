@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Interface.Interf_connexionController">
+  <children>
+    <Label layoutX="182.0" layoutY="46.0" text="CONNECTION A LA BASE">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+    <Button fx:id="connect" layoutX="442.0" layoutY="330.0" mnemonicParsing="false" onAction="#create_connexion" text="CONNECTION" />
+    <VBox id="VBox" alignment="CENTER" layoutX="67.0" layoutY="122.0" spacing="5.0">
+      <children>
+        <Label text="Login ECE" />
+        <TextField fx:id="loginECE" prefWidth="200.0" />
+      </children>
+    </VBox>
+    <VBox id="VBox" alignment="CENTER" layoutX="351.0" layoutY="122.0" spacing="5.0">
+      <children>
+        <Label text="Mot de passe ECE" />
+        <PasswordField fx:id="passwdECE" prefWidth="200.0" />
+      </children>
+    </VBox>
+    <VBox id="VBox" alignment="CENTER" layoutX="68.0" layoutY="237.0" spacing="5.0">
+      <children>
+        <Label text="Login BDD" />
+        <TextField id="loginDBB" fx:id="loginBDD" prefWidth="200.0" />
+      </children>
+    </VBox>
+    <VBox id="VBox" alignment="CENTER" layoutX="350.0" layoutY="237.0" spacing="5.0">
+      <children>
+        <Label text="Mot de passe BDD" />
+        <PasswordField fx:id="passwdBDD" prefWidth="200.0" />
+      </children>
+    </VBox>
+    <Separator layoutX="66.0" layoutY="207.0" prefWidth="484.0" />
+  </children>
+</AnchorPane>
